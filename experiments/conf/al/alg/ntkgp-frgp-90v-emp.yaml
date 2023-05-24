@@ -1,0 +1,17 @@
+name: ntkgp
+name_str: ntkgp-frgp-90v-emp
+restart_iter: false
+to_train: false
+use_torch: true
+
+kwargs:
+  criterion: 90v
+  lazy_eval: false
+  posterior_approx_method: frgp
+  sigma_noise: 0.01
+  use_train_set_for_test: true
+  test_prop_seen_max: 10000
+  test_prop_method: kmpp
+  reinit_gp: true
+  check_per_round: 1000
+  keep_training_kernel_vals: true

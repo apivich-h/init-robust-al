@@ -1,0 +1,13 @@
+name: cifar
+budget: 1200
+batch_sz: 200
+
+params:
+  version: 100
+  num_repetition: 1
+  subset_count: 20000
+  subset_method: random
+  do_normalise: true
+  add_noise: false
+  flatten_input: false
+  seed: 42

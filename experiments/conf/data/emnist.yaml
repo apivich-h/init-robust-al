@@ -1,0 +1,12 @@
+name: emnist
+budget: 600
+batch_sz: 100
+
+params:
+  data_split: balanced
+  num_repetition: 1
+  subset_count: 20000
+  subset_method: random
+  do_normalise: true
+  add_noise: false
+  seed: 42

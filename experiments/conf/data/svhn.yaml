@@ -1,0 +1,12 @@
+name: svhn
+budget: 800
+batch_sz: 100
+
+params:
+  num_repetition: 1
+  subset_count: 20000
+  subset_method: random
+  do_normalise: true
+  add_noise: false
+  flatten_input: false
+  seed: 42

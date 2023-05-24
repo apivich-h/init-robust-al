@@ -1,0 +1,19 @@
+name: ntkgp
+name_str: ntkgp-sgpla-ev
+restart_iter: false
+to_train: false
+use_torch: false
+
+kwargs:
+  criterion: ev
+  lazy_eval: true
+  posterior_approx_method: sgpla
+  inducing_pt_method: kmeans
+  inducing_count: 200
+  sigma_noise: 0.001
+  use_train_set_for_test: true
+  test_prop_seen_max: 10000
+  test_prop_method: kmpp
+  reinit_gp: false
+  check_per_round: 1000
+  keep_training_kernel_vals: true

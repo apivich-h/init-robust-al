@@ -1,0 +1,11 @@
+name: badge
+name_str: badge-notrain
+restart_iter: true
+to_train: false
+use_torch: true
+
+kwargs:
+  min_to_train: 0
+  reset_training: true
+  break_acc: 0.99
+  max_attempts: 50

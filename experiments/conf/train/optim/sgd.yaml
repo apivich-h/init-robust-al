@@ -1,0 +1,6 @@
+name: 'sgd'
+
+params:
+  lr: 0.1
+  momentum: 0.
+  weight_decay: 0.0005

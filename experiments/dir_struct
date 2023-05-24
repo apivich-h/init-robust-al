@@ -1,0 +1,29 @@
+results
+    date
+        time
+            active_learning
+                - logs
+                - cfg.yaml
+                - data.pickle
+                al_splits
+                    proportion=00
+                        - selected_points.pickle
+                    ...
+                    proportion=XX
+                training
+                    date
+                        time
+                            - logs
+                            iteration=01
+                                proportion=00
+                                    epoch=01
+                                        - outputs.pickle
+                                        - train_losses.pickle
+                                        - test_losses.pickle
+                                    epoch=XX
+                                proportion=XX
+                            iteration=XX
+                        ...
+                    ...
+    ...
+        ...

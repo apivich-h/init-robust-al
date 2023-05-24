@@ -1,0 +1,15 @@
+name: mock-mismatch
+budget: 300
+batch_sz: 50
+
+params:
+  dim: 2
+  n: 1000 
+  mean_dist: 1 
+  seed: 42
+  problem_type: regression
+  shift_mean_y: false
+
+model_gen:
+  in_dim: 8
+  out_dim: 1

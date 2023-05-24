@@ -1,0 +1,7 @@
+name: kmeans-pp
+name_str: kmeans-pp
+restart_iter: false
+to_train: false
+use_torch: false
+
+kwargs: null

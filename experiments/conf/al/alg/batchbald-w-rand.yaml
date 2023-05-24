@@ -1,0 +1,11 @@
+name: mc-dropout
+name_str: batchbald-w-rand
+restart_iter: false
+to_train: true
+use_torch: true
+
+kwargs:
+  heuristic: batchbald
+  num_inference_samples: 20
+  num_test_inference_samples: 5
+  first_batch_random: true

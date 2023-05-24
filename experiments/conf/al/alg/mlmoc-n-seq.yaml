@@ -1,0 +1,10 @@
+name: mlmoc
+name_str: mlmoc-n-seq
+restart_iter: false
+to_train: true
+use_torch: true
+
+kwargs:
+  rand_first_batch: false
+  train_as_regression: true
+  sequential_selection: true

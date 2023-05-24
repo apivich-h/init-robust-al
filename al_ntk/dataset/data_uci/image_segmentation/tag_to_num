@@ -1,0 +1,9 @@
+# https://archive-beta.ics.uci.edu/ml/datasets/image+segmentation
+
+0: GRASS
+1: PATH
+2: WINDOW
+3: CEMENT
+4: FOLIAGE
+5: SKY
+6: BRICKFACE

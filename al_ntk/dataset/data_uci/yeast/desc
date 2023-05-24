@@ -1,0 +1,6 @@
+YEAST dataset from https://archive-beta.ics.uci.edu/ml/datasets/yeast
+
+first column removed
+
+last column are classes, replaced with integers instead:
+{'MIT\n': 0, 'NUC\n': 1, 'CYT\n': 2, 'ME1\n': 3, 'EXC\n': 4, 'ME2\n': 5, 'ME3\n': 6, 'VAC\n': 7, 'POX\n': 8, 'ERL\n': 9}

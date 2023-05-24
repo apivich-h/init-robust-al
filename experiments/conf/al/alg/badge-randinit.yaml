@@ -1,0 +1,11 @@
+name: badge
+name_str: badge-randinit
+restart_iter: false
+to_train: true
+use_torch: true
+
+kwargs:
+  min_to_train: 100
+  reset_training: true
+  break_acc: 0.99
+  max_attempts: 50

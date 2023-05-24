@@ -1,0 +1,19 @@
+name: ensemble
+name_str: ensemble-mlp
+
+params:
+  model_init_weights: 1
+  min_weight_to_use: 1e-4
+  use_empirical_kernel: false
+  family: 'mlp'
+  kernel_batch_sz: 1024
+  rand_idxs: 1
+  dropout_rate: [0.5]
+  mlp_activations: ['relu', 'gelu', 'erf', 'sigmoid', ['rbf', 0.1], ['rbf', 0.2]]
+  mlp_width: [512] 
+  mlp_hidden_layers: [1, 2, 3, 4]
+  mlp_bias: [0.1]
+
+jax: null
+
+torch: null

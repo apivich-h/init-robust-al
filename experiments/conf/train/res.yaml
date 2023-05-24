@@ -1,0 +1,14 @@
+iters: 25
+epochs: 1000
+save_every: 1000
+
+data_loader_args: 
+  batch_size: 256
+  test_batch_size: 256
+  shuffle: true
+  in_class_val: 1.
+  not_in_class_val: -1.
+
+defaults:
+  - optim: rn
+  - _self_

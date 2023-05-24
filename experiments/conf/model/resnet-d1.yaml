@@ -1,0 +1,15 @@
+name: wrn
+name_str: resnet-d1
+
+params:
+  depth: 10
+  widen_factor: 1
+  dropout_p: 0.
+
+jax:
+  null
+
+torch: 
+  kernel_batch_sz: 1024
+  rand_idxs: 1
+  ntk_compute_method: jac_con

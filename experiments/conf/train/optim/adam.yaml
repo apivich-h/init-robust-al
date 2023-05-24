@@ -1,0 +1,6 @@
+name: 'adam'
+
+params:
+  lr: 0.1
+  betas: [0.9, 0.999]
+  weight_decay: 0.0005

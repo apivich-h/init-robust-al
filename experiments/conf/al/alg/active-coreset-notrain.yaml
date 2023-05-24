@@ -1,0 +1,8 @@
+name: max-cov
+name_str: active-coreset
+restart_iter: false
+to_train: true
+use_torch: true
+
+kwargs:
+  embedding_mode: output

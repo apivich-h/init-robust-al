@@ -1,0 +1,12 @@
+name: mlmoc-old
+name_str: mlmoc-batched-randinit
+restart_iter: false
+to_train: true
+use_torch: true
+
+kwargs:
+  sigma_noise: 0.1
+  test_prop_seen_max: 20000
+  test_prop_method: kmpp
+  keep_training_kernel_vals: true
+  first_batch_random_count: 100

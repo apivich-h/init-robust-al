@@ -1,0 +1,17 @@
+name: ntkgp
+name_str: ntkgp-frgp-ev-emp-small
+restart_iter: false
+to_train: false
+use_torch: true
+
+kwargs:
+  criterion: ev
+  lazy_eval: true
+  posterior_approx_method: frgp
+  sigma_noise: 0.001
+  use_train_set_for_test: true
+  test_prop_seen_max: 5000
+  test_prop_method: kmpp
+  reinit_gp: true
+  check_per_round: 250
+  keep_training_kernel_vals: true

@@ -1,0 +1,13 @@
+name: emnist
+budget: 600
+batch_sz: 100
+
+params:
+  data_split: mnist
+  num_repetition: 3
+  subset_count: 7000
+  subset_method: power
+  do_normalise: true
+  add_noise: true
+  flatten_input: true
+  seed: 42

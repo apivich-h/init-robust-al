@@ -1,0 +1,16 @@
+name: test
+budget: 20
+batch_sz: 10
+
+params:
+  n: 100
+  ball_scale: 1.
+  seed: 42
+  noise: 0.01
+  distribution: uniform
+  problem_type: classification
+  shift_mean_y: false
+
+model_gen:
+  in_dim: 8
+  out_dim: 4

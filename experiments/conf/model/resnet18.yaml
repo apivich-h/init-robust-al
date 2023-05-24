@@ -1,0 +1,17 @@
+name: resnet
+name_str: resnet18
+
+params:
+  layers: [2, 2, 2, 2]
+  groups: 1
+  width_per_group: 64 
+  replace_stride_with_dilation: null
+  add_batch_norm: true
+
+jax:
+  null
+
+torch: 
+  kernel_batch_sz: 512
+  rand_idxs: 1
+  ntk_compute_method: jac_con

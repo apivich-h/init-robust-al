@@ -1,0 +1,22 @@
+name: cnn
+name_str: mnist
+
+params:
+  conv_layers: [32, 64]
+  hidden_layers: [512]
+  conv_kernel_size: [5, 5]
+  conv_stride: [1, 1]
+  pool_kernel_size: [2, 2]
+  dropout_p: 0.5
+
+jax:
+  W_std: 1.
+  b_std: 1.
+  seed: null
+  use_empirical_kernel: false
+  kernel_batch_sz: 128
+
+torch: 
+  kernel_batch_sz: 1024
+  rand_idxs: 1
+  ntk_compute_method: jac_con

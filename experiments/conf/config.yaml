@@ -1,0 +1,10 @@
+results_dir: results
+use_cuda: true
+
+defaults:
+  - al: v1
+  - data: test
+  - model: mlp
+  - train: v1
+  - _self_
+

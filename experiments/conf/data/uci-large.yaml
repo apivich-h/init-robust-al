@@ -1,0 +1,12 @@
+name: uci
+budget: 100
+batch_sz: 20
+
+params:
+  dataset: kin8nm
+  normalise_x: true
+  normalise_y: true
+  whole_data_pool_prop: 1.
+  random_state: 42
+  test_split_prop: 0.5
+  test_split_method: random

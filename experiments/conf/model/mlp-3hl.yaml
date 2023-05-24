@@ -1,0 +1,22 @@
+name: mlp
+name_str: mlp-3hl
+
+params:
+  hidden_count: 3
+  width: 512
+  W_std: 1.
+  b_std: 0.1
+  activation: 'relu'
+  activation_param: 0
+  seed: null
+
+jax:
+  parametrisation: 'ntk'
+  use_empirical_kernel: false
+  kernel_batch_sz: 512
+
+torch: 
+  dropout_rate: 0.5
+  kernel_batch_sz: 1024
+  rand_idxs: 1
+  ntk_compute_method: jac_con

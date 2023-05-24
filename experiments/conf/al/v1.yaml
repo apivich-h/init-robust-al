@@ -1,0 +1,6 @@
+seed: null
+redo_tests: false
+
+defaults:
+  - alg: random
+  - _self_

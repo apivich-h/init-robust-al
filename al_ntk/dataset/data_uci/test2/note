@@ -1,0 +1,3 @@
+data purposefully constructed so that it is a poor fit for models with ReLU activation
+
+data generated from a randomly initialised model with RBF activation (param=0.1)

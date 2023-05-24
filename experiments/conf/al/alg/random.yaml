@@ -1,0 +1,7 @@
+name: random
+name_str: random
+restart_iter: false
+to_train: false
+use_torch: false
+
+kwargs: null
